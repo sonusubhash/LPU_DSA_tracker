@@ -23,5 +23,5 @@ class Solution:
                 else:
                     stack.append(int(a / b))  # Truncate toward zero
 
-        return stack[-1]
+        return stack
 ```
